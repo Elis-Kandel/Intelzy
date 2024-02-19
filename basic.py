@@ -22,7 +22,5 @@ else:
     '''
   
 a=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-if(a[0]%2 == 0 ):
-    print("Even")  
-else:
-    print("Odd")
+iseven= (a[0]%2)==0
+print(iseven)
