@@ -1,0 +1,12 @@
+Numeric Data Types:
+int, float
+Sequence Data Types:
+str, list, tuple
+Mapping Data Types:
+dict
+Boolean Data types:
+bool
+Set Data Type:
+set
+None Data Type:
+none
