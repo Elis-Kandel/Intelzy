@@ -11,8 +11,18 @@ else:
 # user_age=int(input("ENTER YOUR AGE"))
 # print(f'{user_input} is {user_age}')
 
-user_age=int(input("ENTER YOUR AGE"))
-if user_age>=18:
-    print("You can go")
-else:
-    print("You cannot go")
+# user_age=int(input("ENTER YOUR AGE"))
+# if user_age<=18 :
+#     print(f"You can go, your age is {user_age}")
+# elif user_age >35:
+#     print(f"Chup, your age is {user_age}")
+# else:
+#     print(f"You cannot go, your age is {user_age}")
+
+# a='elis'
+# ad="bharatpir"
+# print(f'your name is {a} and you live in {ad} ')
+
+r=float(input("Enter radius of circle"))
+area= (22/7)*(r**2)
+print(area)
