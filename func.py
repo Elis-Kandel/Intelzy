@@ -7,7 +7,7 @@ def count(a):
     dict={
     "odd":0,
     "even":0
-}
+    }
     for i in range(1,len(a)):
         if a[i]%2==0:
             dict["odd"]+=1
