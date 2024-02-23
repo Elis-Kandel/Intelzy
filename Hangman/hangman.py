@@ -21,7 +21,7 @@ def user_input(chance=5):
                     display[index] = i
                     print(display)
                     user_input(chance)
-            
+            hhh
             for i in word:
                 if letter!=i:
                     chance-=1 
