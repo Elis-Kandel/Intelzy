@@ -71,7 +71,7 @@ def main():
                 
         b=input("Do you want to continue?(y/n)")
         game=b.lower()
-        if game is 'y':
+        if game == 'y':
             main()
         else:
             break
