@@ -49,11 +49,11 @@ def main():
                         wins["user_win"]+=1
                 else:
                     if comp_choice == 2:
-                        continue
+                        continue 
                     elif comp_choice == 0:
                         wins["comp_win"]+=1
                     else:
-                        wins["user_win"]+=1
+                        wins["user_win"]+=1    
                 
         #to check final win
         if wins["comp_win"] is not wins["user_win"]:
