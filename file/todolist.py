@@ -1,11 +1,14 @@
 content=[]
+def print_contents():
+    for i in content:
+        print(i)
 def add_items():
     global content
     work_left=input("Make a remainder")
     with open("todo.txt","r") as file:
         content=file.readlines()
     content.append(work_left+"\n")
-    print(content)
+    print_contents()
     with open("todo.txt","w") as file:
         for line in content:
             file.write(line)
@@ -21,13 +24,13 @@ def remove_items():
         content.remove(remove)
     except Exception:
         print("This doesnt exist")
-    print(content)
+    print_contents()
     with open("todo.txt","w") as file:
         for line in content:
             file.write(line)
     
 while True:
-    user_wants=input("A for Add, R for Remove, C to stop adding")
+    user_wants=input("A for Add, R for Remove, C to stop")
     if(user_wants.upper()=='A'):
         add_items()
         

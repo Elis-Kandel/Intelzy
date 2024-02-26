@@ -1,0 +1,5 @@
+buy milk
+done-Completed
+go to shop
+go to market
+go to gym
