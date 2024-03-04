@@ -1,9 +1,14 @@
 import random as rd
+from datetime import datetime,timedelta
 def game():
+    currentTime=datetime.now()
     print("\t Guess game")
     THRESOLD=0
     computer_number=rd.randint(1,100)
     while True:
+        if currentTime<datetime.now()-timedelta(seconds=2):
+            print("TIME UP")
+            break
         try:
             guess= int(input("Enter a number"))
         except Exception:
