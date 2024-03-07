@@ -1,9 +1,11 @@
 from django.contrib import admin
 from django.urls import path
-from .views import func,hello_view 
+from .views import todo,read_todo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("hell/", hello_view),
-    path('func/', func),
+
+    path('todos/', todo),
+    path('todos/<int:todoId>/',read_todo)
+    
 ]
